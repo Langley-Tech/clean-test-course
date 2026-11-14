@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - lesson-5
+permissions:
+  contents: read
+  issues: write
 jobs:
 #  function_test: (commented out to save learner time)
 #    runs-on: ubuntu-latest
